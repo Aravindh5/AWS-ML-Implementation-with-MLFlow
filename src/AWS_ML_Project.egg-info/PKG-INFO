@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: AWS_ML_Project
+Version: 0.0.0
+Summary: A small python package for ml app
+Home-page: https://github.com/Aravindh5/AWS-ML-Implementation-with-MLFlow
+Author: Aravindh5
+Author-email: Ktaravindh005@gmail.com
+Project-URL: Bug Tracker, https://github.com/Aravindh5/AWS-ML-Implementation-with-MLFlow/issues
+License-File: LICENSE
+
+# AWS-ML-Implementation-with-MLFlow
+This project shows my previous experience in implementing ML algorithms in the AWS with the help of ML Flow.
