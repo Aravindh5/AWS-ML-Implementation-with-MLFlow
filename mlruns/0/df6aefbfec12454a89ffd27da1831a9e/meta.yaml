@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Projects/AWS-ML-Implementation-with-MLFlow/mlruns/0/df6aefbfec12454a89ffd27da1831a9e/artifacts
+end_time: 1712870231297
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: df6aefbfec12454a89ffd27da1831a9e
+run_name: illustrious-boar-577
+run_uuid: df6aefbfec12454a89ffd27da1831a9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712870209690
+status: 3
+tags: []
+user_id: Aravindh

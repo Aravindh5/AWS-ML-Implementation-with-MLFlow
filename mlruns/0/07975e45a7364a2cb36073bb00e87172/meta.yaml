@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Projects/AWS-ML-Implementation-with-MLFlow/mlruns/0/07975e45a7364a2cb36073bb00e87172/artifacts
+end_time: 1712870985362
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 07975e45a7364a2cb36073bb00e87172
+run_name: flawless-steed-660
+run_uuid: 07975e45a7364a2cb36073bb00e87172
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712870978309
+status: 3
+tags: []
+user_id: Aravindh

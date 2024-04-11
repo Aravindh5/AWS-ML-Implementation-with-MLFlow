@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Projects/AWS-ML-Implementation-with-MLFlow/mlruns/0/257ef54d523f4f39ab33c971b2a619c7/artifacts
+end_time: 1712870547790
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 257ef54d523f4f39ab33c971b2a619c7
+run_name: silent-dog-299
+run_uuid: 257ef54d523f4f39ab33c971b2a619c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712870538349
+status: 3
+tags: []
+user_id: Aravindh

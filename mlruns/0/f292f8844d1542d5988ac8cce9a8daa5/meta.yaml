@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Projects/AWS-ML-Implementation-with-MLFlow/mlruns/0/f292f8844d1542d5988ac8cce9a8daa5/artifacts
+end_time: 1712870802897
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f292f8844d1542d5988ac8cce9a8daa5
+run_name: casual-foal-306
+run_uuid: f292f8844d1542d5988ac8cce9a8daa5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712870795462
+status: 3
+tags: []
+user_id: Aravindh

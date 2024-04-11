@@ -3,6 +3,7 @@ from AWS_ML_Project.pipeline.stage_01_data_ingesion import DataIngestionTraining
 from AWS_ML_Project.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from AWS_ML_Project.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
 from AWS_ML_Project.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
+from AWS_ML_Project.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
 
 
 logger.info('Welcome to our custom logging.')
@@ -43,6 +44,16 @@ try:
     obj = ModelTrainerTrainingPipeline()
     obj.main()
     logger.info(f">>>>>>>>> Stage {STAGE_NAME} has completed <<<<<<<<<<<\n\nX====================X")
+except Exception as e:
+    logger.exception(e)
+    raise e
+
+STAGE_NAME = "MODEL EVALUATION STAGE"
+try:
+    logger.info(f">>>>>>> stage {STAGE_NAME} <<<<<<<<<<")
+    obj = ModelEvaluationTrainingPipeline()
+    obj.main()
+    logger.info(f">>>>>>> stage {STAGE_NAME} has completed <<<<<<<<<<<<<\n\nX==============X")
 except Exception as e:
     logger.exception(e)
     raise e
