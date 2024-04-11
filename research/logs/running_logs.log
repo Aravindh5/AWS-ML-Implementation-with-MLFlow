@@ -32,3 +32,8 @@ Expires: Wed, 10 Apr 2024 20:04:42 GMT
 Source-Age: 0
 
 ]
+[2024-04-10 18:12:55,805: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-10 18:12:55,830: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-10 18:12:55,833: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-10 18:12:55,834: INFO: common: created directory at: artifacts]
+[2024-04-10 18:12:55,834: INFO: common: created directory at: artifacts/data_validation]
