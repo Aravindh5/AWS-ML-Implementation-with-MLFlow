@@ -116,3 +116,43 @@ x=====================x]
 [2024-04-10 19:47:05,089: INFO: main: >>>>>>> stage DATA VALIDATION STAGE data validation has completed <<<<<<<<<<<<
 
 x=====================x]
+[2024-04-10 23:25:54,309: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-10 23:25:54,332: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-10 23:25:54,335: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-10 23:25:54,346: INFO: common: created directory at: artifacts]
+[2024-04-10 23:25:54,346: INFO: common: created directory at: artifacts/data_transformation]
+[2024-04-10 23:25:54,557: INFO: 03_data_transformation: Splited data into training and testing sets]
+[2024-04-10 23:25:54,557: INFO: 03_data_transformation: Train Data Shape : (1199, 12)]
+[2024-04-10 23:25:54,557: INFO: 03_data_transformation: Test Data Shape: (400, 12)]
+[2024-04-10 23:58:40,774: INFO: main: Welcome to our custom logging.]
+[2024-04-10 23:58:40,787: INFO: main: >>>>>>> stage DATA INGESTION STAGE started <<<<<<<<<<<<]
+[2024-04-10 23:58:40,790: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-10 23:58:40,791: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-10 23:58:40,793: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-10 23:58:40,807: INFO: common: created directory at: artifacts]
+[2024-04-10 23:58:40,808: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-10 23:58:40,808: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-04-10 23:58:40,840: INFO: main: >>>>>>> stage DATA INGESTION STAGE data ingestion has completed <<<<<<<<<<<<
+
+x=====================x]
+[2024-04-10 23:58:40,840: INFO: main: >>>>>>> stage DATA VALIDATION STAGE started <<<<<<<<<<<<]
+[2024-04-10 23:58:40,843: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-10 23:58:40,844: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-10 23:58:40,846: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-10 23:58:40,847: INFO: common: created directory at: artifacts]
+[2024-04-10 23:58:40,847: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-10 23:58:40,891: INFO: main: >>>>>>> stage DATA VALIDATION STAGE data validation has completed <<<<<<<<<<<<
+
+x=====================x]
+[2024-04-10 23:58:40,891: INFO: main: >>>>>> stage DATA TRANSFORMATION STAGE started <<<<<<<<<<<<]
+[2024-04-10 23:58:40,893: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-10 23:58:40,894: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-10 23:58:40,897: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-10 23:58:40,897: INFO: common: created directory at: artifacts]
+[2024-04-10 23:58:40,898: INFO: common: created directory at: artifacts/data_transformation]
+[2024-04-10 23:58:41,039: INFO: data_transformation: Splited data into training and testing sets]
+[2024-04-10 23:58:41,040: INFO: data_transformation: Train Data Shape : (1199, 12)]
+[2024-04-10 23:58:41,040: INFO: data_transformation: Test Data Shape: (400, 12)]
+[2024-04-10 23:58:41,040: INFO: main: >>>>>> stage DATA TRANSFORMATION STAGE data transformation has completed <<<<<<<<<
+
+X====================X]

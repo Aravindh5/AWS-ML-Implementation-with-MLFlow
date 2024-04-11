@@ -9,7 +9,8 @@ from AWS_ML_Project.utils.common import get_size
 from AWS_ML_Project.constants import *
 from AWS_ML_Project.utils.common import read_yaml, create_directories
 from AWS_ML_Project.entity.config_entity import (DataIngestionConfig,
-                                                 DataValidationConfig)
+                                                 DataValidationConfig,
+                                                 DataTransformationConfig)
 
 
 class ConfigurationManager:
@@ -59,6 +60,19 @@ class ConfigurationManager:
         return data_validation_config
 
 
+    def get_data_transformation_config(self) -> DataTransformationConfig:
+
+        config = self.config.data_transformation
+        create_directories([config.root_dir])
+
+        data_transformation_config = DataTransformationConfig(
+            root_dir=config.root_dir,
+            data_path=config.data_path
+        )
+
+        return data_transformation_config
+
+
 class DataIngestion:
 
     def __init__(self, config: DataIngestionConfig):
@@ -92,14 +106,14 @@ class DataIngestion:
         with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
             zip_ref.extractall(unzip_path)
 
-
-# This is the data ingestion pipeline (phase).
-# Based on my actual project, I'll modify this data ingestion phase.
-try:
-    config = ConfigurationManager()
-    data_ingestion_config = config.get_data_ingestion_config()
-    data_ingestion = DataIngestion(config=data_ingestion_config)
-    data_ingestion.download_file()
-    data_ingestion.extract_zip_file()
-except Exception as e:
-    raise e
+#
+# # This is the data ingestion pipeline (phase).
+# # Based on my actual project, I'll modify this data ingestion phase.
+# try:
+#     config = ConfigurationManager()
+#     data_ingestion_config = config.get_data_ingestion_config()
+#     data_ingestion = DataIngestion(config=data_ingestion_config)
+#     data_ingestion.download_file()
+#     data_ingestion.extract_zip_file()
+# except Exception as e:
+#     raise e
