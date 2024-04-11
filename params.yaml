@@ -1,2 +1,6 @@
 
-key: val
+# Here, I am going with Elatic Net
+# Based on the algorithm we use, we provide the parameters.
+ElasticNet:
+  alpha: 0.5
+  l1_ratio: 0.7

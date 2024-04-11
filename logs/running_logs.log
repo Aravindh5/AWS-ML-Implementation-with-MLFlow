@@ -156,3 +156,157 @@ x=====================x]
 [2024-04-10 23:58:41,040: INFO: main: >>>>>> stage DATA TRANSFORMATION STAGE data transformation has completed <<<<<<<<<
 
 X====================X]
+[2024-04-11 12:36:10,963: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-11 12:36:10,976: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-11 12:36:10,982: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-11 12:36:10,983: INFO: common: created directory at: artifacts]
+[2024-04-11 12:37:12,070: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-11 12:37:12,072: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-11 12:37:12,075: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-11 12:37:12,076: INFO: common: created directory at: artifacts]
+[2024-04-11 12:37:12,077: INFO: common: created directory at: artifacts/model_trainer]
+[2024-04-11 12:37:31,621: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-11 12:37:31,624: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-11 12:37:31,627: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-11 12:37:31,628: INFO: common: created directory at: artifacts]
+[2024-04-11 12:37:31,629: INFO: common: created directory at: artifacts/model_trainer]
+[2024-04-11 12:44:28,792: INFO: main: Welcome to our custom logging.]
+[2024-04-11 12:44:28,793: INFO: main: >>>>>>> stage DATA INGESTION STAGE started <<<<<<<<<<<<]
+[2024-04-11 12:44:28,796: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-11 12:44:28,798: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-11 12:44:28,800: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-11 12:44:28,801: INFO: common: created directory at: artifacts]
+[2024-04-11 12:44:28,802: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-11 12:44:28,802: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-04-11 12:44:28,857: INFO: main: >>>>>>> stage DATA INGESTION STAGE data ingestion has completed <<<<<<<<<<<<
+
+x=====================x]
+[2024-04-11 12:44:28,858: INFO: main: >>>>>>> stage DATA VALIDATION STAGE started <<<<<<<<<<<<]
+[2024-04-11 12:44:28,867: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-11 12:44:28,871: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-11 12:44:28,877: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-11 12:44:28,879: INFO: common: created directory at: artifacts]
+[2024-04-11 12:44:28,880: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-11 12:44:28,913: INFO: main: >>>>>>> stage DATA VALIDATION STAGE data validation has completed <<<<<<<<<<<<
+
+x=====================x]
+[2024-04-11 12:44:28,914: INFO: main: >>>>>> stage DATA TRANSFORMATION STAGE started <<<<<<<<<<<<]
+[2024-04-11 12:44:28,925: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-11 12:44:28,928: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-11 12:44:28,935: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-11 12:44:28,937: INFO: common: created directory at: artifacts]
+[2024-04-11 12:44:28,938: INFO: common: created directory at: artifacts/data_transformation]
+[2024-04-11 12:44:29,063: INFO: data_transformation: Splited data into training and testing sets]
+[2024-04-11 12:44:29,064: INFO: data_transformation: Train Data Shape : (1199, 12)]
+[2024-04-11 12:44:29,064: INFO: data_transformation: Test Data Shape: (400, 12)]
+[2024-04-11 12:44:29,065: INFO: main: >>>>>> stage DATA TRANSFORMATION STAGE data transformation has completed <<<<<<<<<
+
+X====================X]
+[2024-04-11 12:44:29,066: INFO: main: >>>>>>>>> Stage MODEL TRAINING STAGE started <<<<<<<<<<<<<]
+[2024-04-11 12:44:29,078: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-11 12:44:29,081: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-11 12:44:29,093: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-11 12:44:29,095: INFO: common: created directory at: artifacts]
+[2024-04-11 12:44:29,096: INFO: common: created directory at: artifacts/model_trainer]
+[2024-04-11 12:44:29,098: ERROR: main: "'ConfigBox' object has no attribute 'l1_ration'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'l1_ration'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'l1_ration'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'l1_ration'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'l1_ration'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'l1_ration'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'l1_ration'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'l1_ration'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Projects\AWS-ML-Implementation-with-MLFlow\main.py", line 44, in <module>
+    obj.main()
+  File "E:\Projects\AWS-ML-Implementation-with-MLFlow\src\AWS_ML_Project\pipeline\stage_04_model_trainer.py", line 17, in main
+    model_trainer_config = config.get_model_trainer_config()
+  File "E:\Projects\AWS-ML-Implementation-with-MLFlow\src\AWS_ML_Project\config\configuration.py", line 91, in get_model_trainer_config
+    l1_ratio=params.l1_ration,
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'l1_ration'"
+[2024-04-11 12:44:46,367: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-11 12:44:46,370: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-11 12:44:46,374: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-11 12:44:46,375: INFO: common: created directory at: artifacts]
+[2024-04-11 12:44:46,375: INFO: common: created directory at: artifacts/model_trainer]
+[2024-04-11 12:44:56,856: INFO: main: Welcome to our custom logging.]
+[2024-04-11 12:44:56,856: INFO: main: >>>>>>> stage DATA INGESTION STAGE started <<<<<<<<<<<<]
+[2024-04-11 12:44:56,860: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-11 12:44:56,862: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-11 12:44:56,866: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-11 12:44:56,867: INFO: common: created directory at: artifacts]
+[2024-04-11 12:44:56,867: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-11 12:44:56,868: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-04-11 12:44:56,872: INFO: main: >>>>>>> stage DATA INGESTION STAGE data ingestion has completed <<<<<<<<<<<<
+
+x=====================x]
+[2024-04-11 12:44:56,872: INFO: main: >>>>>>> stage DATA VALIDATION STAGE started <<<<<<<<<<<<]
+[2024-04-11 12:44:56,876: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-11 12:44:56,878: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-11 12:44:56,882: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-11 12:44:56,883: INFO: common: created directory at: artifacts]
+[2024-04-11 12:44:56,883: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-11 12:44:56,900: INFO: main: >>>>>>> stage DATA VALIDATION STAGE data validation has completed <<<<<<<<<<<<
+
+x=====================x]
+[2024-04-11 12:44:56,900: INFO: main: >>>>>> stage DATA TRANSFORMATION STAGE started <<<<<<<<<<<<]
+[2024-04-11 12:44:56,905: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-11 12:44:56,907: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-11 12:44:56,911: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-11 12:44:56,912: INFO: common: created directory at: artifacts]
+[2024-04-11 12:44:56,913: INFO: common: created directory at: artifacts/data_transformation]
+[2024-04-11 12:44:56,950: INFO: data_transformation: Splited data into training and testing sets]
+[2024-04-11 12:44:56,950: INFO: data_transformation: Train Data Shape : (1199, 12)]
+[2024-04-11 12:44:56,950: INFO: data_transformation: Test Data Shape: (400, 12)]
+[2024-04-11 12:44:56,951: INFO: main: >>>>>> stage DATA TRANSFORMATION STAGE data transformation has completed <<<<<<<<<
+
+X====================X]
+[2024-04-11 12:44:56,951: INFO: main: >>>>>>>>> Stage MODEL TRAINING STAGE started <<<<<<<<<<<<<]
+[2024-04-11 12:44:56,955: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-11 12:44:56,957: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-11 12:44:56,960: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-11 12:44:56,962: INFO: common: created directory at: artifacts]
+[2024-04-11 12:44:56,962: INFO: common: created directory at: artifacts/model_trainer]
+[2024-04-11 12:44:56,984: INFO: main: >>>>>>>>> Stage MODEL TRAINING STAGE Model Training has completed <<<<<<<<<<<
+
+X====================X]
