@@ -25,7 +25,7 @@ https://github.com/Aravindh5/AWS-ML-Implementation-with-MLFlow
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n mlproj python=3.9 -y
+conda create -n AWS_ML_Project python=3.9 -y
 ```
 
 ```bash
@@ -70,11 +70,11 @@ Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/Aravindh5/AWS-ML-Implementation-with-MLFlow.mlflow
+export MLFLOW_TRACKING_URI=
 
-export MLFLOW_TRACKING_USERNAME=Aravindh5 
+export MLFLOW_TRACKING_USERNAME= 
 
-export MLFLOW_TRACKING_PASSWORD=92a8a1192753d800264fc7311c97acd4d54f4d9f
+export MLFLOW_TRACKING_PASSWORD=
 
 ```
 
@@ -113,7 +113,7 @@ export MLFLOW_TRACKING_PASSWORD=92a8a1192753d800264fc7311c97acd4d54f4d9f
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/mlproj
+    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/AWS_ML_Project
 
 	
 ## 4. Create EC2 machine (Ubuntu) 

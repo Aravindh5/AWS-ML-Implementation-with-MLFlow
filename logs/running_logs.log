@@ -728,3 +728,22 @@ X====================X]
 [2024-04-11 16:53:05,943: INFO: main: >>>>>>> stage MODEL EVALUATION STAGE has completed <<<<<<<<<<<<<
 
 X==============X]
+[2024-04-11 17:51:35,176: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.4.24:8080]
+[2024-04-11 17:51:35,192: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-11 17:51:35,236: INFO: _internal:  * Restarting with stat]
+[2024-04-11 17:51:38,808: WARNING: _internal:  * Debugger is active!]
+[2024-04-11 17:51:38,919: INFO: _internal:  * Debugger PIN: 508-888-387]
+[2024-04-11 17:52:13,080: INFO: _internal: 127.0.0.1 - - [11/Apr/2024 17:52:13] "GET / HTTP/1.1" 200 -]
+[2024-04-11 17:52:15,362: INFO: _internal: 127.0.0.1 - - [11/Apr/2024 17:52:15] "GET /static/css/styles.css HTTP/1.1" 200 -]
+[2024-04-11 17:52:15,363: INFO: _internal: 127.0.0.1 - - [11/Apr/2024 17:52:15] "GET /static/css2/style.css HTTP/1.1" 200 -]
+[2024-04-11 17:52:15,364: INFO: _internal: 127.0.0.1 - - [11/Apr/2024 17:52:15] "GET /static/js/scripts.js HTTP/1.1" 200 -]
+[2024-04-11 17:52:15,369: INFO: _internal: 127.0.0.1 - - [11/Apr/2024 17:52:15] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
+[2024-04-11 17:52:15,524: INFO: _internal: 127.0.0.1 - - [11/Apr/2024 17:52:15] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2024-04-11 17:52:15,550: INFO: _internal: 127.0.0.1 - - [11/Apr/2024 17:52:15] "GET /static/assets/img/form-v9.jpg HTTP/1.1" 200 -]
+[2024-04-11 17:52:15,814: INFO: _internal: 127.0.0.1 - - [11/Apr/2024 17:52:15] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-04-11 17:52:16,205: INFO: _internal: 127.0.0.1 - - [11/Apr/2024 17:52:16] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
+[2024-04-11 17:54:13,772: INFO: _internal:  * Detected change in 'E:\\Projects\\AWS-ML-Implementation-with-MLFlow\\app.py', reloading]
+[2024-04-11 17:54:14,317: INFO: _internal:  * Restarting with stat]
