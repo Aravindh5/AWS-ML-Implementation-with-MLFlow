@@ -64,7 +64,7 @@ open up you local host and port
 
 MLFLOW_TRACKING_URI=https://dagshub.com/Aravindh5/AWS-ML-Implementation-with-MLFlow.mlflow \
 MLFLOW_TRACKING_USERNAME=Aravindh5 \
-MLFLOW_TRACKING_PASSWORD=92a8a1192753d800264fc7311c97acd4d54f4d9f \
+MLFLOW_TRACKING_PASSWORD= \
 python script.py
 Run this to export as env variables:
 
